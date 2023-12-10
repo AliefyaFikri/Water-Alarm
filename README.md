@@ -17,7 +17,24 @@ As for network infrastructure, our product has ESP32, Blynk platform and user's 
 # Software Implementation details
 The software development phase of the Water Waker project focused on crafting a robust program responsible for orchestrating and managing the intricate hardware components essential for its functionality. Implemented in Arduino, leveraging the familiarity and versatility of the C/C++ programming language, the software operates as the brain of the system, coordinating the microcontroller, beeper, and water pump seamlessly. The program's design centers on direct interaction with hardware elements, dictating the precise moments for the beeper to emit sound and orchestrating the water pump's activation to dispense water. The software execution follows a meticulously planned flowchart. It begins with initializing the LCD to display a reassuring 'Alarm Water Waker ready' message, proceeding to establish a Wi-Fi connection. Upon successful connection verification, the LCD confirms 'Wifi Connected', initiating Blynk services. Subsequently, the software configures the system's time, retrieves the current time, and presents it on the LCD. Simultaneously, Blynk integration facilitates the display of the set alarm time and allows users to configure the alarm settings. Ultimately, this intricately woven software orchestrates the Water Waker's operations, seamlessly executing the alarm functionalities while ensuring user interactivity through the Blynk platform
 
-# Test Result and Prformance Evaluation
+# Test Result and Performance Evaluation
+## Testing Summary
+We thoroughly tested the Water Waker to ensure it met our expectations. Tests included checking the alarm's volume, the reach of the water spray, and the ease of setting the alarm.
+
+### Key Findings
+- **Alarm Loudness:** Verified it could wake users effectively.
+- **Water Spray Range:** Ensured the water reached its intended target.
+- **Simple Alarm Setting:** Tested for user-friendly alarm configuration.
+
+### Results
+The Water Waker performed admirably, effectively waking users with both sound and water. It was straightforward to use and didn't incur high costs.
+
+- **Effective Functionality:** Successful wake-up using sound and water.
+- **User-Friendly:** Easy-to-use controls for alarm settings.
+- **Cost-Effective:** Developed affordably without compromising functionality.
+
+### Testing Outcome
+All tests confirmed the Water Waker's performance as intended, particularly highlighting the unique water-spraying feature.
 
 # Conclusion and future work
 
