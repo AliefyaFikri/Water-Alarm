@@ -21,19 +21,19 @@ The software development phase of the Water Waker project focused on crafting a 
 ## Testing Summary
 We thoroughly tested the Water Waker to ensure it met our expectations. Tests included checking the alarm's volume, the reach of the water spray, and the ease of setting the alarm.
 
-### Key Findings
+## Key Findings
 - **Alarm Loudness:** Verified it could wake users effectively.
 - **Water Spray Range:** Ensured the water reached its intended target.
 - **Simple Alarm Setting:** Tested for user-friendly alarm configuration.
 
-### Results
+## Results
 The Water Waker performed admirably, effectively waking users with both sound and water. It was straightforward to use and didn't incur high costs.
 
 - **Effective Functionality:** Successful wake-up using sound and water.
 - **User-Friendly:** Easy-to-use controls for alarm settings.
 - **Cost-Effective:** Developed affordably without compromising functionality.
 
-### Testing Outcome
+## Testing Outcome
 All tests confirmed the Water Waker's performance as intended, particularly highlighting the unique water-spraying feature.
 
 # Conclusion and future work
